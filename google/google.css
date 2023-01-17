@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+/* BARRA SUPERIOR */
+.barra{
+    background-color: rgb(61, 61, 61);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    font-size: 25px;
+    color: white;
+}
+
+.icon{
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon:hover{
+    background-color: rgb(128, 128, 128);
+}
+
+#fecha{
+    margin-right: 5px;
+}
+
+#fecha:hover{
+    background-color: rgb(238, 25, 25);
+}
+
+a{
+    color: white;
+    cursor: default;
+}
+
+/* RESTO DOS BAGUI */
+header{
+    background-color: rgb(138, 0, 0);
+    height: fit-content;
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho img{
+    width: 120px;
+}
+
+.content{
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.imagem img{
+    width: 600px;
+}
+
+.content p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content h2{
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
