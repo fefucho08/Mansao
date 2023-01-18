@@ -1,0 +1,16 @@
+body{
+    background-color: #690b00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+div{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+}
